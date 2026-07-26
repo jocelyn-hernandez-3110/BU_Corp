@@ -1,8 +1,11 @@
-# 🤖 Asistente Virtual para Tienda (Telegram + AI Agent en n8n)
+# 🛒 BU_Corp - Pedidos de Abarrotes Express
+http://127.0.0.1:5500/BU_Corp.html
 
-Este repositorio (o flujo de n8n) contiene un asistente virtual inteligente conectado a Telegram, diseñado para gestionar de forma automatizada la atención a Clientes, consultas de Empleados y administración de inventario por parte del Administrador.
+**BU_Corp** es una *landing page* diseñada para optimizar la experiencia de compras de abarrotes. La página actúa como el punto de entrada para un sistema de pedidos automatizado. En lugar de utilizar un carrito de compras web tradicional, el sitio redirige a los clientes directamente a un **bot de Telegram**, donde un flujo de trabajo automatizado (gestionado a través de n8n) se encarga de procesar los pedidos, calcular los totales y coordinar la recolección en tienda.
 
-El flujo utiliza el nodo **AI Agent** (LangChain) de n8n impulsado por OpenAI, el cual es capaz de tomar decisiones, leer contextos y ejecutar herramientas de Google Sheets y Google Drive de manera dinámica según el perfil del usuario.
+## ✨ Características Principales
+🤖 Asistente Virtual para Tienda (Telegram + AI Agent en n8n)
+Este repositorio (o flujo de n8n) contiene un asistente virtual inteligente conectado a Telegram, diseñado para gestionar de forma automatizada la atención a Clientes, consultas de Empleados y administración de inventario por parte del Administrador. El flujo utiliza el nodo **AI Agent** (LangChain) de n8n impulsado por OpenAI, el cual es capaz de tomar decisiones, leer contextos y ejecutar herramientas de Google Sheets y Google Drive de manera dinámica según el perfil del usuario.
 
 ---
 
@@ -67,6 +70,10 @@ Para ejecutar este flujo en tu instancia de n8n, necesitas las siguientes creden
 
 ## 📁 Estructura de Datos Requerida (Google Workspace)
 
+Para que el proyecto se visualice correctamente en tu entorno local o servidor, asegúrate de contar con la siguiente estructura de imágenes referenciadas en el HTML:
+├── index.html       # Archivo principal proporcionado
+├── style.css        # Hoja de estilos externa (opcional si expandes el CSS)
+
 Para que las herramientas del agente funcionen correctamente, los documentos deben estar estructurados de la siguiente manera:
 
 ### Google Sheets
@@ -93,6 +100,10 @@ Deben existir y estar accesibles para la credencial de Google Drive los siguient
 
 ## 🚀 Instalación y Despliegue
 
+para acceder a la tienda linea copia este url 
+http://127.0.0.1:5500/BU_Corp.html
+
+para el Workflows https://jocelynmartinez.app.n8n.cloud/workflow
 1. Copia el código JSON del flujo proporcionado.
 2. En tu panel de n8n, ve a **Workflows** y selecciona **Import from File** o pega directamente el JSON en el lienzo (Canvas).
 3. Abre cada nodo que requiera credenciales (Telegram Trigger, OpenAI Model, Google Drive, Google Sheets) y selecciona tus cuentas preconfiguradas.
