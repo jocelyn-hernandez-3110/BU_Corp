@@ -3,8 +3,7 @@ http://127.0.0.1:5500/BU_Corp.html
 
 **BU_Corp** es una *landing page* diseñada para optimizar la experiencia de compras de abarrotes. La página actúa como el punto de entrada para un sistema de pedidos automatizado. En lugar de utilizar un carrito de compras web tradicional, el sitio redirige a los clientes directamente a un **bot de Telegram**, donde un flujo de trabajo automatizado (gestionado a través de n8n) se encarga de procesar los pedidos, calcular los totales y coordinar la recolección en tienda.
 
-## ✨ Características Principales
-🤖 Asistente Virtual para Tienda (Telegram + AI Agent en n8n)
+###🤖 Asistente Virtual para Tienda (Telegram + AI Agent en n8n)
 Este repositorio (o flujo de n8n) contiene un asistente virtual inteligente conectado a Telegram, diseñado para gestionar de forma automatizada la atención a Clientes, consultas de Empleados y administración de inventario por parte del Administrador. El flujo utiliza el nodo **AI Agent** (LangChain) de n8n impulsado por OpenAI, el cual es capaz de tomar decisiones, leer contextos y ejecutar herramientas de Google Sheets y Google Drive de manera dinámica según el perfil del usuario.
 
 ---
