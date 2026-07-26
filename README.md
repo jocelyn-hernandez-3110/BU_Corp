@@ -76,6 +76,7 @@ Para que el proyecto se visualice correctamente en tu entorno local o servidor, 
 Para que las herramientas del agente funcionen correctamente, los documentos deben estar estructurados de la siguiente manera:
 
 ### Google Sheets
+https://drive.google.com/drive/folders/1PzoniHoIPm7w20Qt0GnvICPmGqobJakj?usp=sharing
 
 * **Documento 1: Empleados**
   * **Hoja:** `Lista_de_empleados`
