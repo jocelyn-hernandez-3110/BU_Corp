@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BU_Corp.online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    <header> 
+        <h1>"🛒 ¡Tus abarrotes de siempre, ahora a un clic por Telegram!"</h1> 
+        <p>La mejor experiencia de compras en línea</p> 
+        <img src="img3.jpeg" alt="3" class="logo"> 
+    
+    </header>
+    
+    <main>
+        <section>
+        <h2>¿Poca prisa y mucho mandato? </h2>
+        <p> Olvídate de hacer filas o perder tiempo buscando en los pasillos. En BU_Corp hacemos que hacer la despensa sea tan fácil como mandar un mensaje. Armas tu carrito, te damos tu total al instante, y solo pasas a recogerlo listo y empacado. ¡Así de rápido!            <ol>
+                <li>💡 ¿Cómo funciona tu pedido express? 
+                  Hacer tu mandado nunca fue tan cómodo. Solo sigue estos 3 sencillos pasos:</li>
+                <li>📱 Entra a nuestro Telegram: Haz clic en nuestro botón directo y abre el chat.
+                <li>🛒 Arma tu lista y confirma: Elige tus productos, recibe el costo total de tu compra al instante y selecciona la hora en que pasarás por él.</li>
+                <li>🛍️ Pasa y recoge: Tu pedido estará registrado, empacado y esperándote a la hora acordada. ¡Pagas en caja y listo!</li>
+            </ol>
+        </p>
+        <img src="img2.jpeg" alt="1" class="historia">
+        </section>
+
+        <section>
+        <h2>🔥 ¿Por qué te va a encantar pedir con nosotros? </h2>
+        <p>
+            <ul>
+                <li>⚡ Cero filas, cero esperas: Tu tiempo vale oro. Llega, paga y vete con todo listo.</li>
+                <li>🧾 Cuentas claras: Sabes exactamente cuánto vas a pagar antes de salir de casa.</li>
+                <li>🍓 Lo mejor para tu hogar: La misma calidad, frescura y precios bajos de tu tienda de confianza.</li>
+            </ul>
+        </p>
+        <img src="img11.jpeg" alt="2" class="tipos">
+        </section>
+    </main>
+
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img4.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img5.jpeg" class="d-block w-100" alt="...">
+    </div> 
+    <div class="carousel-item">
+      <img src="img6.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<style>
+  /* Estilos del botón flotante de Telegram */
+  .telegram-float-btn {
+    position: fixed;
+    bottom: 90px; /* Posicionado arriba del botón de comentarios */
+    right: 24px;
+    z-index: 999;
+    background-color: #24A1DE; /* Color azul oficial de Telegram */
+    color: #ffffff !important;
+    border-radius: 50px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 10px 25px rgba(36, 161, 222, 0.4);
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .telegram-float-btn:hover {
+    background-color: #1d82b4;
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(36, 161, 222, 0.5);
+  }
+
+  .telegram-icon {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+  }
+</style>
+
+<style>
+body {
+    background-image: url("img11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body { 
+    background-color:#010007; 
+    color: rgba(242, 241, 246, 0.875) ;
+    font-family: checkmark;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    color: #edf2ed;
+    padding: 18px;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 3px solid #ede2e2;
+}
+
+header .logo {
+    max-width: 300px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+header h1 { 
+    margin: 0; 
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header p {
+    color: #f6f8f9;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main section {
+    background-color: #212121;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #00ff37;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+main section h2 {
+    margin-top: 0;
+    color: #f9f6f6;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #07f72f;
+    padding-bottom: 10px;
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #765939;
+    border-radius: 4px;
+}
+
+#carouselExample {
+    max-width: 60%;
+    margin: 0px auto;
+}
+
+
+footer ul{
+    list-style-type: none;
+    color:#0e2fe7;
+    padding-left:20px;
+}
+
+footer ul li{
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #212020;
+    color: #f40606;
+    font-size: 0.9rem;
+    border-top: 1px solid #07f63b;
+    margin-top: 50px;
+}
+</style>
+
+<!-- Reemplaza "TU_USUARIO_O_BOT" por el nombre de tu Bot de Telegram -->
+<a href="https://web.telegram.org/a/#8703934704" target="_blank" rel="noopener noreferrer" class="telegram-float-btn" title="Contactar por Telegram">
+  <svg class="telegram-icon" viewBox="0 0 24 24">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.69-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.25.38-.51 1.07-.78 4.18-1.82 6.97-3.02 8.37-3.61 3.98-1.66 4.81-1.95 5.35-1.96.12 0 .38.03.55.17.14.12.18.28.2.45-.02.07-.02.16-.03.25z"/>
+  </svg>
+  <span>Hablar por Telegram</span>
+</a> 
+
+<style>
+  /* Colores vivos solicitados */
+  .fb-rating-malo { background-color: #FF0000 !important; color: #FFFFFF !important; }
+  .fb-rating-bueno { background-color: #FFD700 !important; color: #333333 !important; }
+  .fb-rating-excelente { background-color: #00FF00 !important; color: #003300 !important; }
+
+  /* Estilos interactivos de botones de valoración */
+  .fb-rate-btn {
+    border: 3px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .fb-rate-btn:hover {
+    transform: translateY(-2px);
+  }
+  .fb-rate-btn.active {
+    border-color: #000000 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  }
+
+  /* Animación suave para nuevos comentarios */
+  @keyframes fbFadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .fb-animate-in {
+    animation: fbFadeIn 0.35s ease-out forwards;
+  }
+</style>
+
+<!-- Importar Tailwind CSS y FontAwesome (si tu web ya los usa, puedes omitir estas 2 líneas) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<!-- CONTENEDOR FIJO DE COMENTARIOS -->
+<div class="w-full max-w-2xl mx-auto my-8 bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden relative font-sans text-slate-800">
+  
+  <!-- Encabezado de la Tarjeta -->
+  <div class="bg-slate-900 text-white p-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <i class="fa-solid fa-comments text-yellow-400 text-2xl"></i>
+      <div>
+        <h3 class="font-bold text-xl leading-tight">Déjanos tu opinión</h3>
+        <p class="text-xs text-slate-300">Tu valoración nos ayuda a seguir mejorando</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cuerpo del Formulario -->
+  <div class="p-6 md:p-8 relative">
+    <form id="fixedFbForm" class="space-y-6">
+      
+      <!-- Selección de Calificación (Malo, Bueno, Excelente) -->
+      <div>
+        <label class="block text-sm font-semibold mb-3 text-slate-700 text-center">
+          ¿Cómo calificarías tu experiencia?
+        </label>
+        <div class="grid grid-cols-3 gap-3 md:gap-4">
+          <button type="button" data-rating="Malo" class="fb-rate-btn fb-rating-malo py-3.5 px-2 rounded-xl font-bold flex flex-col items-center justify-center gap-1.5 shadow">
+            <i class="fa-solid fa-face-frown text-2xl"></i>
+            <span class="text-xs md:text-sm">Malo</span>
+          </button>
+          <button type="button" data-rating="Bueno" class="fb-rate-btn fb-rating-bueno py-3.5 px-2 rounded-xl font-bold flex flex-col items-center justify-center gap-1.5 shadow">
+            <i class="fa-solid fa-face-meh text-2xl"></i>
+            <span class="text-xs md:text-sm">Bueno</span>
+          </button>
+          <button type="button" data-rating="Excelente" class="fb-rate-btn fb-rating-excelente py-3.5 px-2 rounded-xl font-bold flex flex-col items-center justify-center gap-1.5 shadow">
+            <i class="fa-solid fa-face-smile-beam text-2xl"></i>
+            <span class="text-xs md:text-sm">Excelente</span>
+          </button>
+        </div>
+        <p id="fixedFbError" class="text-red-500 text-xs text-center mt-2 hidden font-medium">Por favor selecciona una valoración.</p>
+      </div>
+
+      <!-- Área de Texto para el Comentario -->
+      <div>
+        <label for="fixedFbText" class="block text-sm font-semibold mb-2 text-slate-700">Tu comentario:</label>
+        <textarea id="fixedFbText" rows="4" maxlength="300" placeholder="Escribe aquí tu opinión sobre nuestro servicio o productos..." class="w-full px-4 py-3 text-sm rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-slate-900 resize-none transition"></textarea>
+        <div class="text-right text-xs text-slate-400 mt-1">
+          <span id="fixedFbCharCount">0</span>/300
+        </div>
+      </div>
+
+      <!-- Botón de Envío -->
+      <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3.5 px-6 rounded-xl transition shadow-lg flex items-center justify-center gap-2 text-sm md:text-base">
+        <i class="fa-solid fa-paper-plane"></i>
+        <span>Enviar Comentario</span>
+      </button>
+    </form>
+
+    <!-- Mensaje de Agradecimiento (Oculto inicialmente) -->
+    <div id="fixedFbThanks" class="absolute inset-0 bg-white/95 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center hidden fb-animate-in">
+      <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4 text-3xl shadow-sm">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h4 class="text-2xl font-bold text-slate-800 mb-2">¡Muchas gracias por tu comentario!</h4>
+      <p class="text-slate-600 text-sm max-w-sm mb-6">Tu opinión ha sido registrada exitosamente y nos ayuda a seguir mejorando.</p>
+      <button id="fixedFbResetBtn" class="bg-slate-900 hover:bg-slate-800 text-white font-semibold py-2.5 px-6 rounded-xl text-xs md:text-sm transition shadow">
+        Escribir otro comentario
+      </button>
+    </div>
+  </div>
+
+  <!-- Lista de Comentarios Publicados -->
+  <div class="bg-slate-50 border-t border-slate-200 p-6 md:p-8">
+    <h4 class="font-bold text-slate-800 mb-4 flex items-center gap-2 text-sm md:text-base">
+      <i class="fa-solid fa-comments text-slate-500"></i>
+      Comentarios Recientes (<span id="fixedFbCount">1</span>)
+    </h4>
+    
+    <div id="fixedFbList" class="space-y-3 max-h-80 overflow-y-auto pr-1">
+      <!-- Comentario de muestra -->
+      <div class="p-4 rounded-xl border border-slate-200 bg-white space-y-2 shadow-sm">
+        <div class="flex items-center justify-between">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold fb-rating-excelente">
+            <i class="fa-solid fa-face-smile-beam"></i> Excelente
+          </span>
+          <span class="text-xs text-slate-400">Hace un momento</span>
+        </div>
+        <p class="text-slate-700 text-sm leading-relaxed">¡Excelente servicio! Muy contento con la velocidad de atención y la calidad.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- LÓGICA JAVASCRIPT DEL COMPONENTE -->
+<script>
+  (function() {
+    let selectedRating = null;
+    let commentCounter = 1;
+
+    // Elementos DOM
+    const form = document.getElementById('fixedFbForm');
+    const textarea = document.getElementById('fixedFbText');
+    const charCount = document.getElementById('fixedFbCharCount');
+    const errorMsg = document.getElementById('fixedFbError');
+    const thanksScreen = document.getElementById('fixedFbThanks');
+    const resetBtn = document.getElementById('fixedFbResetBtn');
+    const rateBtns = document.querySelectorAll('.fb-rate-btn');
+    const commentsList = document.getElementById('fixedFbList');
+    const countDisplay = document.getElementById('fixedFbCount');
+
+    // Contador de caracteres
+    textarea.addEventListener('input', () => {
+      charCount.textContent = textarea.value.length;
+    });
+
+    // Seleccionar valoración
+    rateBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        rateBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        selectedRating = btn.getAttribute('data-rating');
+        errorMsg.classList.add('hidden');
+      });
+    });
+
+    // Enviar formulario
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const text = textarea.value.trim();
+
+      if (!selectedRating) {
+        errorMsg.classList.remove('hidden');
+        return;
+      }
+
+      if (!text) {
+        textarea.focus();
+        return;
+      }
+
+      // Publicar en la lista visual
+      addCommentToList(selectedRating, text);
+
+      // Mostrar pantalla de agradecimiento
+      thanksScreen.classList.remove('hidden');
+    });
+
+    // Botón para resetear y escribir otro comentario
+    resetBtn.addEventListener('click', () => {
+      resetForm();
+    });
+
+    // Agregar nuevo comentario a la lista
+    function addCommentToList(rating, text) {
+      const card = document.createElement('div');
+      card.className = 'p-4 rounded-xl border border-slate-200 bg-white space-y-2 shadow-sm fb-animate-in';
+
+      let ratingClass = 'fb-rating-bueno';
+      let iconClass = 'fa-face-meh';
+
+      if (rating === 'Malo') {
+        ratingClass = 'fb-rating-malo';
+        iconClass = 'fa-face-frown';
+      } else if (rating === 'Excelente') {
+        ratingClass = 'fb-rating-excelente';
+        iconClass = 'fa-face-smile-beam';
+      }
+
+      card.innerHTML = `
+        <div class="flex items-center justify-between">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${ratingClass}">
+            <i class="fa-solid ${iconClass}"></i> ${rating}
+          </span>
+          <span class="text-xs text-slate-400">Justo ahora</span>
+        </div>
+        <p class="text-slate-700 text-sm leading-relaxed">${escapeHTML(text)}</p>
+      `;
+
+      commentsList.insertBefore(card, commentsList.firstChild);
+      commentCounter++;
+      countDisplay.textContent = commentCounter;
+    }
+
+    // Resetear el formulario
+    function resetForm() {
+      form.reset();
+      rateBtns.forEach(b => b.classList.remove('active'));
+      selectedRating = null;
+      charCount.textContent = '0';
+      errorMsg.classList.add('hidden');
+      thanksScreen.classList.add('hidden');
+    }
+
+    // Prevención simple de XSS
+    function escapeHTML(str) {
+      return str.replace(/[&<>'"]/g, tag => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+      }[tag] || tag));
+    }
+  })();
+</script>
+
+  <footer>
+
+    <ul>
+        <li><a href="https://www.reddit.com/r/filmes/comments/1b0he4h/como_treinar_seu_drag%C3%A3o_%C3%A9_a_trilogia_mais_bem/?tl=es-es">Más información sobre la trilogía</a></li>
+        <li><a href="https://youtu.be/WTO0gh_SbfE?si=S19k7lPDHpMLwuYu" target="_blank">Video explicativo</a></li>
+        <li><a href="https://howtotrainyourdragon.fandom.com/es/wiki/Mundo_Oculto" target="_blank">Mundo Oculto</a></li>
+    </ul>
+
+</footer>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html> 
